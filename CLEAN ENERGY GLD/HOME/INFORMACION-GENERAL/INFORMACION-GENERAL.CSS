@@ -1,0 +1,119 @@
+/* Reset general */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(IMAGENES/MMMM.jpg);
+    background-size: cover; /* Esto hace que la imagen cubra todo el fondo */
+    background-position: center; /* Esto centra la imagen en la pantalla */
+    background-repeat: no-repeat; /* Esto evita que la imagen se repita */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Título principal */
+h1 {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    font-size: 2.5rem;
+    color: #ffffff;
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.363);
+    padding: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    
+    
+}
+
+
+/* Párrafo introductorio */
+header p {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #fcfdfd;
+    margin-top: 10px;
+}
+
+/* Mapa conceptual */
+.mapa-conceptual {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+
+/* Cada bloque de concepto */
+.concepto {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    padding: 20px;
+    width: 250px;
+}
+
+/* Títulos de los conceptos */
+.titulo {
+    font-family: 'Georgia', serif;
+    font-size: 1.5rem;
+    color: #2a7f62;
+    margin-bottom: 10px;
+}
+
+/* Información del concepto */
+.informacion {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Estilos del pie de página */
+footer {
+    background-color: #a8b3beec;
+    padding: 20px;
+    margin-top: 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+footer h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+}
+/* Estilo del formulario */
+form {
+    margin-top: 20px;
+}
+
+form label {
+    font-size: 1rem;
+    color: #444;
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input {
+    padding: 10px;
+    width: 80%;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #2e6e49;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #246b3d;
+}

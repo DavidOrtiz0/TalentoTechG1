@@ -1,0 +1,51 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: white;
+}
+
+td:hover{
+    background-color: rgb(144, 216, 216);
+}
+
+th{
+    background-color: rgb(167, 167, 255);
+}
+
+table{
+    width: 100%;
+}
+
+select{
+  padding: 10px;
+  width: 50%;
+  margin: 10px; 
+  text-align: center;
+}
+
+select:hover{
+    cursor: pointer;
+}
+
+h1{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 50px;
+}
+
+section{
+  width: 80%;
+  margin-left: 8%;
+}
+
+body{
+    background-color: rgb(241, 255, 147);
+}
+
+div{
+    display: flex;
+}

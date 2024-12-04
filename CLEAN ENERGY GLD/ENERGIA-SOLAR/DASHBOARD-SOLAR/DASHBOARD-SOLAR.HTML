@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="DASHBOARD-SOLAR.CSS">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="DASHBOARD-SOLAR.JS"></script>
+    
+</head>
+<body>
+
+   
+
+    <!-- Contenedor que cubre toda la página -->
+    <div class="arriba">
+         <div id="seleccionador">
+        <label for="prueba">Datos relacionados a colombia</label>
+    </div>
+        
+    </div>
+
+    
+    <!-- Fila de gráficos -->
+    <div class="graphics-row">
+        <div id="bargraphics">
+            <canvas id='graficabarras' width='500' height='500'></canvas>
+        </div>
+        <div id="paigraphics" class="graphic-box">
+            <canvas id="graficoTorta" width="500" height="500"></canvas>
+        </div>
+        <div id="linegraphics" class="graphic-box">
+            <canvas id="graficoLineas" width="500" height="500"></canvas>
+        </div>
+        <div id="areagraphics" class="graphic-box">
+            <canvas id="graficoArea" width="500" height="500"></canvas>
+        </div>
+    </div>
+    
+
+    
+</body>
+</html>

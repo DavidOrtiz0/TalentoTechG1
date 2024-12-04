@@ -1,0 +1,109 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-size: cover; /* Ajusta la imagen para cubrir toda la pantalla */
+}
+
+header {
+    background-color: #d0f354;
+    color: black;
+    text-align: center;
+    padding: 1em 0;
+}
+
+h1, h2 {
+    margin: 0.5em 0;
+    text-align: center;
+}
+
+p {
+    margin: 1em 0;
+}
+
+/* Section Styles */
+section {
+    padding: 1em;
+}
+
+.imagen-con-texto {
+    text-align: center;
+    margin: 1em auto;
+}
+
+.imagen-con-texto img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 1em;
+}
+
+.texto-sobre-imagen {
+    padding: 0 1em;
+}
+
+/* Buttons */
+.botones {
+    text-align: center;
+    margin: 2em 0;
+}
+
+.boton {
+    background-color: #d0f354;
+    color: black;
+    border: none;
+    padding: 0.7em 1.5em;
+    margin: 0.5em;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;  
+}
+
+.boton:hover {
+    background-color: #e5ff00;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header {
+        font-size: 1.2em;
+        padding: 0.8em 0;
+    }
+
+    .texto-sobre-imagen {
+        font-size: 0.9em;
+    }
+
+    .botones {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .boton {
+        width: 80%;
+        margin: 0.5em 0;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    p {
+        font-size: 0.9em;
+    }
+
+    .boton {
+        font-size: 0.9em;
+        padding: 0.5em 1em;
+    }
+}
